@@ -1,0 +1,610 @@
+.imagelogo a{
+text-decoration: none;
+}
+.imagelogo img{
+  width: 200px;
+  height:50px ;
+  }
+
+.dropbtn {
+      
+        color: black;
+        padding: 18px 25px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        background-color: white;
+        margin-bottom: 0.5%;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        
+        
+      }
+      
+      .dropdown-content {
+      
+        display: none;
+        position: absolute;
+        background-color: #2c2929;
+        min-width: 230px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color:rgb(248, 248, 248);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #272424;
+color: aqua;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: #272727;
+        color: rgb(255, 255, 255);
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card7{
+  
+    box-shadow: 0 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+   margin-left: 20px;
+  
+  }
+  .card7:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .chocolate{
+    background-color: rgba(247, 241, 192, 0.938);
+    display: flex;
+    
+    
+  
+  
+  }
+  .chocolate h3{
+    color: red;
+  }
+  .white2{
+    display: flex;
+    padding-top: 10px;
+    background-color: white;
+    margin-left: 10px;
+  }
+  .white2 h3{
+    color: red;
+  }
+  .whitetext{
+    background-color: white;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .brown{
+    display: flex;
+    background-color: rgb(255, 250, 205);
+    justify-content: space-between;
+    margin-left: 10px;
+    padding-top: 30px;
+  }
+  .brown p{
+    font-weight: bold;
+  }
+  /*
+  button{
+    border: 0px solid green;
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 0px;
+    color: green;
+  }
+  */
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .images2{
+      padding-top: 20px;
+      display: flex;
+      background-color: white;
+  
+  }
+  .trip{
+    width: 400px;
+    margin: 60px;
+    border-color: green;
+    border:10px;
+    background-color: white;
+  
+  }
+  .maincontents{
+    background-color: white;
+  }
+  
+  .wild {
+    float: right;
+    margin-right: 30px;
+  }
+    
+    
+  *{
+      margin: 0px;
+      padding: 0px;
+  }
+    
+    
+    
+    .black{
+      display: flex;
+      background-color: black;
+      color: white;
+      justify-content: space-around;
+      height: 30px;
+  }
+  .white{
+      background: white;
+      
+      justify-content: space-between;
+  
+  }
+      .white ol{
+      
+          display: flex;
+          list-style: none;
+         color: blue;
+         float: right;
+  
+          
+      }
+      .white img{
+        
+      }
+      .white ol li{
+          display: block;
+         width: 110px;
+         margin: 15px;
+         padding: 15px;
+         float: right;
+         font-size: 10px;
+         justify-content: space-between;
+  
+          
+      }
+      .sublink1{
+          display: none;
+      }
+      .white ol li a{
+          
+          text-decoration: none;
+          color: #000;
+          float: right;
+      }
+      .white ol li a:hover{
+       background: black;
+       border-radius: 3px;
+       height: 70px;
+      }
+      
+      .white ol li:hover.sublink1 {
+          display: block;
+          position: absolute;
+          background: navy;
+          margin-top: 15px;
+          margin-left: 15px;
+  
+      }
+      .white ol li:hover.sublink1 ol
+      {
+          display: block;
+          margin: 10px;
+   }
+      .white ol li:hover.sublink ol li{
+          width: 150px;
+          padding: 10px;
+          border-bottom: 1px black;
+          background: transparent;
+          border-radius: 0;
+          text-align: left;
+      }
+      .white ol li:hover.subwhite ol li:last-child{
+  
+          border-bottom: none;
+      
+        }
+        
+      .white ol li:hover.subwhite ol li a :hover{
+  
+          color: thistle;
+      }
+      
+      .ima{
+          size: 10px;
+          display: flex;
+          float: right;
+          
+      }
+        
+        .mainchoco{
+           text-align: center;
+           background-color: rgb(255, 250, 205);
+           color: black;
+           text-transform: capitalize;
+      
+        }
+        
+  
+        .gorrilas{
+            display: flex;
+            width: 100%;
+            justify-content: stretch;
+      
+        }
+        .gol{
+            width:6%;
+            height: 500px;
+        }
+        .button{
+          
+          justify-content: space-     between;
+        }
+        button:hover{
+          
+           
+        }
+        .lion{
+            display: flex;
+            text-align: center;
+        }
+        .word{
+            text-align: center;
+        }
+        .button2{
+            
+            justify-content: space-between;
+        }
+        .person{
+            background-color:  rgb(255, 250, 205); 
+        }
+        .subperson{
+            display: flex;
+            text-align: center;
+        }
+        .image{
+                width: 50px;
+                padding-right: 20px;
+                
+        }
+        .subblack{
+            float: left;
+        }
+        .ima{
+            float: right;
+            size:  n20px;
+        }
+        .LOG{
+            width: 20%;
+            float: left;
+            height: 70%;
+            margin-left:0px;
+           
+        }
+        .subblack{
+            width: 40%;
+        }
+        input{
+            padding-right: 50px;
+        }
+  
+       div.scroll{
+           margin: 4px;
+           padding: 4px;
+           background-color:green;
+           width: 500px;
+           height: 110px;
+           overflow-x: hidden;
+           overflow-x:auto;
+           text-align: justify;
+           text-align: center;
+       }
+       .rig{
+           text-align: right;
+       }
+       .box{
+           margin: 1px;
+           border: 1px;
+           border-color: green;
+           
+       }
+       input{
+           padding-right: 0px;
+       }
+       .green{
+           display: flex;
+           justify-content: space-between;
+  
+       }
+       img{
+           size: 30px;
+       }
+       .lastgreenmain{
+           display: flex;
+           background-color: green;
+           justify-content: space-around;
+           padding: 30px;
+           
+           
+       }
+       .lastblack{
+           background-color: black;
+       }
+      .lastgreenmain h4{
+          color: white;
+       }
+       .lastgreenmain a:hover h5 {
+        color: blue;
+     }
+       .logos img{
+          
+       }
+  ol li ol li a:hover{
+  display: block;
+  
+  float left;
+  
+  }
+  .maincontents{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    background-color: white;
+  }
+  .maincontents img {
+    width: 500px;
+  }
+  .content{
+    background-color: white;
+  }
+  .card{
+    box-shadow: 0 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: flex;
+    margin-left: 20px;
+  }
+  .car:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container{
+  padding: 2px 16px;
+  display: block;
+  }
+  .sublast1 a ,.sublast2 a{
+      color: black;
+      text-decoration: none;
+  }
+  .sublast1 a:hover,.sublast2 a:hover{
+     color: blue;
+      text-decoration: none;
+  }
+  .nav{
+      width: 80%;
+      background-color: white;
+      height: 80px;
+    float: right;
+  
+  }
+  ul{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      position: absolute;
+  }
+  ul li{
+      float: left;
+      margin-top: 20px;
+      color: white;
+  
+  }
+  ul li a{
+       width: 150px;
+       color: black;
+       display: block;
+       text-decoration: none;
+       font-size: 20px;
+       text-align: center;
+       padding: 10px;
+  
+  }
+  a:hover{
+      background-color: rgb(54, 54, 47);
+      color: white;
+  }
+  ul li ul{
+      background-color: black;
+       color: white;
+       font-size: 10px;
+  }
+  ul li ul li{
+      float: none;
+      color: white;
+      font-size: 10px;
+  }
+  ul li ul{
+      display: none;
+      font-size: 10px;
+  }
+  ul li:hover ul{
+  display: block;
+  width: 200px;
+  font-size: 10px;
+  }
+  ul li ul li ul li
+  {
+   float: right; 
+   display: flex;
+  }
+  .fa{
+    padding: 10px;
+  }
+  .lastblack h4{
+    color: white;
+    text-align: center;
+    
+  }
+  .lastblack, .fa{
+    color: white;
+    
+  }
+  .sublast{
+    display: flex;
+  }
+  .fa:hover{165709
+    color: black;
+   
+  }
+  .r{
+    float: right;
+    text-align: right;
+  }
+  .lgs img{
+  width: 60px;
+  align-content: all;
+  }
+  .fa fa-search ul li a{
+     color: black;
+  }
+  .lastblack{
+      padding-top: 0px;
+  }
+  .lastgreenmain{
+      display: flex;
+  }
+  .hh1 h1{
+  color: red;
+  }
+  .fa fa-chevron-right{
+      color: black;
+  }
+  .card3{
+    box-shadow: 0 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+    margin-left: 20px;
+  }
+  .card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card4{
+    box-shadow: 0 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+    margin-left: 20px;
+  }
+  .card4:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card5{
+    box-shadow: 0 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+    margin-left: 20px;
+  }
+  .card5:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card6{
+    box-shadow: 0 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+    margin-left: 20px;
+  }
+  .card6:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card1{
+    box-shadow: 0 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+    margin-left: 20px;
+  }
+  .card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card2{
+    box-shadow: 0 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+    margin-left: 20px;
+  }
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card7{
+    box-shadow: 0 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+    margin-left: 20px;
+  }
+  .card7:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .imagelogo img{
+    size: 10px;
+    width: 100px;
+    padding-right: 10px;
+    margin: 10px;
+  }
+  .imagelogo{
+    background-color: white;
+  }
+  .sublast1 h4{
+    color: white;
+  }
+  .sublast1 h5{
+    color: black;
+  }
+  .card-title p{
+      color: red;
+  }
